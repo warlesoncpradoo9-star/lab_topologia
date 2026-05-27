@@ -13,6 +13,7 @@ topology:
       image: nicolaka/netshoot:latest
       exec:
         - ip addr add 10.0.0.2/24 dev eth1
+        - ip link set eth1 up
 
   links:
     - endpoints: ["node-a:eth1", "node-b:eth1"]
