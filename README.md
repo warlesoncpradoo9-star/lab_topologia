@@ -81,8 +81,8 @@ containerlab version
 Clone o repositório e acesse o diretório do laboratório:
 
 ```bash
-git clone https://github.com/warlesoncpradoo9-star/lab_topologia.git
-cd lab_topologia
+git clone https://github.com/seunomegit/lab.git
+cd lab
 ```
 
 ## 🐝 Passo 2 — Deploy da Topologia
